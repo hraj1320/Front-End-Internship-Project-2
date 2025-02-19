@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Himanshu Kumar - Full Stack Developer and DevOps Engineer Portfolio">
+    <title>Himanshu Kumar | Full Stack & DevOps Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <!-- <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #3B82F6;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style> -->
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="bg-gray-800/95 backdrop-blur-sm p-4 fixed w-full top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="https://via.placeholder.com/40" alt="Logo" class="rounded-full">
+                <h1 class="text-xl font-bold">Himanshu Kumar</h1>
+            </div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#about" class="nav-link px-3 py-2">About</a></li>
+                <li><a href="#projects" class="nav-link px-3 py-2">Projects</a></li>
+                <li><a href="#skills" class="nav-link px-3 py-2">Skills</a></li>
+                <li><a href="#contact" class="nav-link px-3 py-2">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="min-h-screen flex items-center justify-center pt-20" id="about">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h2 class="text-4xl font-bold mb-4">Full Stack Developer & DevOps Engineer</h2>
+                <p class="text-gray-400 text-lg mb-6">
+                    Passionate about building scalable web applications and optimizing deployment pipelines.
+                    With 2+ years of experience in developing full-stack solutions and implementing CI/CD workflows.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://linkedin.com/in/himanshukumar1320" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg flex items-center">
+                        <i class="fab fa-linkedin mr-2"></i> Connect
+                    </a>
+                    <a href="https://github.com/hraj1320" target="_blank" class="border border-gray-600 hover:border-gray-400 px-6 py-2 rounded-lg flex items-center">
+                        <i class="fab fa-github mr-2"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://via.placeholder.com/400" alt="Profile" class="rounded-lg shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-20 bg-gray-800/50" id="projects">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 rounded-xl p-6 shadow-xl transform transition hover:scale-105">
+                    <div class="mb-4">
+                        <div class="h-48 bg-gray-700 rounded-lg mb-4"></div>
+                        <h3 class="text-xl font-semibold mb-2">Instagram Growth Platform</h3>
+                        <p class="text-gray-400 mb-4">Full-stack growth marketing platform with analytics dashboard</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">React</span>
+                            <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">Node.js</span>
+                            <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">MongoDB</span>
+                        </div>
+                        <a href="#" class="text-blue-400 hover:text-blue-300 flex items-center">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-800 rounded-xl p-6 shadow-xl transform transition hover:scale-105">
+                    <div class="mb-4">
+                        <div class="h-48 bg-gray-700 rounded-lg mb-4"></div>
+                        <h3 class="text-xl font-semibold mb-2">E-commerce CI/CD Pipeline</h3>
+                        <p class="text-gray-400 mb-4">Automated deployment pipeline with Docker, AWS, and Jenkins</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">AWS</span>
+                            <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">Docker</span>
+                            <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">Jenkins</span>
+                        </div>
+                        <a href="#" class="text-blue-400 hover:text-blue-300 flex items-center">
+                            Case Study <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-20" id="skills">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Technical Skills</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Frontend -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-code mr-2 text-blue-400"></i> Frontend
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400"><i class="fab fa-react mr-2 text-blue-400"></i> React.js</li>
+                        <li class="text-gray-400"><i class="fab fa-html5 mr-2 text-orange-400"></i> HTML5</li>
+                        <li class="text-gray-400"><i class="fab fa-css3-alt mr-2 text-blue-400"></i> CSS3/Tailwind</li>
+                    </ul>
+                </div>
+
+                <!-- Backend -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-server mr-2 text-green-400"></i> Backend
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400"><i class="fab fa-node mr-2 text-green-400"></i> Node.js</li>
+                        <li class="text-gray-400"><i class="fas fa-database mr-2 text-blue-400"></i> MongoDB</li>
+                        <li class="text-gray-400"><i class="fas fa-fire mr-2 text-orange-400"></i> Firebase</li>
+                    </ul>
+                </div>
+
+                <!-- DevOps -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center">
+                        <i class="fas fa-cloud mr-2 text-purple-400"></i> DevOps
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400"><i class="fab fa-docker mr-2 text-blue-400"></i> Docker</li>
+                        <li class="text-gray-400"><i class="fab fa-aws mr-2 text-orange-400"></i> AWS</li>
+                        <li class="text-gray-400"><i class="fas fa-infinity mr-2 text-red-400"></i> CI/CD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-gray-800/50" id="contact">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+            <div class="max-w-2xl mx-auto">
+                <form class="space-y-6">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full p-3 bg-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full p-3 bg-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <textarea rows="5" placeholder="Your Message" class="w-full p-3 bg-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded-lg font-semibold transition">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://github.com" target="_blank" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="mailto:hraj000123@gmail.com" class="text-gray-400 hover:text-white">
+                    <i class="fas fa-envelope text-2xl"></i>
+                </a>
+            </div>
+            <p class="text-gray-400">&copy; 2023 Himanshu Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js">
+        // // Smooth scrolling and active nav link
+        // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        //     anchor.addEventListener('click', function(e) {
+        //         e.preventDefault();
+        //         const target = document.querySelector(this.getAttribute('href'));
+        //         target.scrollIntoView({ behavior: 'smooth' });
+        //     });
+        // });
+
+        // // Navbar scroll effect
+        // window.addEventListener('scroll', () => {
+        //     const nav = document.querySelector('nav');
+        //     if (window.scrollY > 50) {
+        //         nav.classList.add('shadow-xl');
+        //     } else {
+        //         nav.classList.remove('shadow-xl');
+        //     }
+        // });
+    </script>
+</body>
+</html>
