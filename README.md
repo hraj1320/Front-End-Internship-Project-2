@@ -1,7 +1,3 @@
- 
-
-## 📄 **README.md for Front-End Internship Project 2**
-```md
 # Front-End Internship Project 2 🚀
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://front-end-internship-project-2.netlify.app/)
@@ -35,6 +31,9 @@ This project is designed using **HTML, CSS, JavaScript, and Tailwind CSS**, with
 | **Tailwind CSS** | Utility-First Styling |
 
 ---
+
+## 📂 Folder Structure  
+
 
 ## 📂 Folder Structure  
 ```
